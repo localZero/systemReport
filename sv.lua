@@ -77,7 +77,7 @@ function sendToDiscord(color, message, title)
         }
     }
 
-    PerformHttpRequest('https://discord.com/api/webhooks/997599479287001188/SPM1ztPNjevLjeWgK6E3CLZfyg7AGLGWMqnO48Tm8-vokb1kbRxHfDG5YAYkxWb5PCfP', function(err, text, headers) end, 'POST', json.encode({
+    PerformHttpRequest('SEU_LINK', function(err, text, headers) end, 'POST', json.encode({
         username = name,
         embeds = embed
     }), {
