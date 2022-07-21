@@ -43,7 +43,7 @@ RegisterCommand('history', function(source, args, rawCommand)
     end
 end)
 -----------------------------------------------------
--- variables 
+-- report 
 -----------------------------------------------------
 RegisterCommand('report', function(source, args, rawCommand)
     local source = source
